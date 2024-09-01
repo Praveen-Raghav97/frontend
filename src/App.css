@@ -27,6 +27,13 @@
 .App-link {
   color: #61dafb;
 }
+.con{
+  width: 100%;
+ 
+  background: url('../public/bg.png');
+  background-position: center;
+  background-size: contain;
+}
 
 @keyframes App-logo-spin {
   from {
