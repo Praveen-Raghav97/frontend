@@ -26,7 +26,8 @@ function App() {
  }else if (localStorage.getItem("adminId")) {
   dispatch(adminActions.login())
  }
-  },[dispatch])
+  },[dispatch]) 
+  
   return (
     <div className="App">
     <Header/>
